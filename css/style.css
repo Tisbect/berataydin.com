@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    animation: color-transition 10s linear infinite;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#countdown {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+
+.arkabolum
+{
+    background: white;
+    padding: 25px 50px;
+    border-radius: 20px;
+    font-family: quicksand;
+    height: 250px;
+}
+
+@keyframes color-transition {
+    0% {
+      background: pink;
+    }
+    25% {
+      background: lightblue;
+    }
+    50% {
+      background: lightgreen;
+    }
+    75% {
+      background: yellow;
+    }
+    100% {
+      background: pink;
+    }
+}
